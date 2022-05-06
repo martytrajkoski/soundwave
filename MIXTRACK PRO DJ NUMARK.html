@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+            #button{
+                background-color: rgb(31, 182, 219);
+                width: 150px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: center;
+                color: rgb(31, 182, 219);
+                font-size: 15px;
+                position: relative;
+            }
+        </style>
+        <style>
+            #manu ul
+            {
+                list-style: none;
+            }
+            #manu ul li
+            {
+                background-color:rgb(31, 182, 219);
+                width: 200px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: left;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                position: relative;
+            } 
+        </style> 
+        <style>
+             *{box-sizing: border-box;}
+             body {font-family: Verdana, sans-serif;}
+             .mySlides {display: none;}
+             img {vertical-align: middle;}
+         
+             .slideshow-container {
+                 max-width: 1000px;
+                 position: relative;
+                 margin: auto;
+             }
+         
+             .text{
+                 color: aliceblue;
+                 font-size: 15px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 8px;
+                 width: 100%;
+                 text-align: center;
+             }
+         
+             .numbertext {
+                 color: aliceblue;
+                 font-size: 12px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 top: 0;
+             }
+         
+             .dot{
+                 height: 15px;
+                 width: 15px;
+                 margin: 0 2px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                 display: inline-block;
+                 transition: background-color 0.6s ease;
+             }
+         
+             .active{
+                 background-color: #717171;
+             }
+         
+             .fade{
+                 -webkit-animation-name: fade;
+                 -webkit-animation-duration: 1.5s;
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+             }
+         
+             @-webkit-keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @media only screen and (max-width: 300px) {
+                 .text {font-size: 11px}
+             }
+             </style>
+        <style>
+                *{
+                    margin:0px;
+                    padding:0px;
+                }
+                #container ul
+                    {
+                    list-style:none;
+                    }
+                #container ul li{
+                    background-color:none;
+                    width: 104px;
+                    border: 1px solid none;
+                    height: 20px;
+                    line-height:20px;
+                    text-align: center;
+                    float: left;
+                    color: gray;
+                    font-size: 15px;
+                    
+                }
+                </style>
+                <style>
+                #beforedropdown ul
+                    {
+                        list-style:none;
+                    }
+                #beforedropdown ul li
+                    {
+                        background-color:none;
+                        width: 178px;
+                        border: 0px solid darkgray;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                    }       
+                </style>
+                <style>
+                #dropdownmainmanu ul
+                    {
+                        list-style: none;
+                    }
+                #dropdownmainmanu ul li
+                    {
+                        background-color: rgb(0, 0, 0);
+                        width: 153px;
+                        border: 0px solid darkgray;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                        position: relative;
+                    } 
+                #dropdownmainmanu ul li
+                    {
+                        background-color: gray; 
+                    }  
+                #dropdownmainmanu ul li:hover
+                    {
+                        background-color: rgb(31, 182, 219)
+            
+                    } 
+                #dropdownmainmanu ul ul
+                    {
+                        display: none;
+                    }
+                #dropdownmainmanu ul li:hover > ul
+                    {
+                        display: block;
+                    }
+                #dropdownmainmanu ul ul ul
+                    {
+                        margin-left: 150px;
+                        top: 0px;
+                        position: absolute;
+                    }
+                </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MIXTRACK PRO DJ NUMARK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <br> 
+        <div id="container" >
+                <ul>            
+                        <li><img src="logo.png" height="210" width="320"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/homepage.html"style="color:white">Home</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/about.html"style="color:white">About</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Dealers.html"style="color:white">Dealers</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Companies.html"style="color:white">Companies</font></a></li>
+                </ul>
+            </div>
+        <br>
+        <br>
+        <br>
+            <div id="beforedropdown">
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="dropdownmainmanu">
+                <ul>
+                    <li><font face="verdana">Hi-Fi</font>
+                        <ul>
+                            <li><a href="Speakers1.html"style="color:white">Speakers</a></li>
+                            <li><a href="Pre-amplifiers.html"style="color:white">Pre-amplifiers</a></li>
+                            <li><a href="Amps.html"style="color:white">Amplifiers</a></li>
+                            <li><a href="Home-Cinema.html"style="color:white">Home Cinema</a></li>
+                            <li><a href="head.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/proekt/index.html" style="color:white">Instruments</a></font></li>
+                    <li><font face="verdana">DJ Gear</font>
+                        <ul>
+                            <li><a href="CD Players.html"style="color:white">CD Player</a></li>
+                            <li><a href="DJ mixers.html" style="color:white">DJ Mixers</a></li>
+                            <li><a href="DJ MIDI Controllers.html" style="color:white">DJ MIDI Controllers</a></li>
+                            <li><a href="head2.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Lighting</font>
+                        <ul>
+                            <li>Club & Disco Lighting
+                                <ul>
+                                    <li><a href="Lasers.html"style="color:white">Lasers</a></li>
+                                    <li><a href="Moving Heads.html"style="color:white">Moving Heads</a></li>
+                                    <li><a href="Scanners.html"style="color:white">Scanners</a></li>
+                                    <li><a href="Strobe Lights.html"style="color:white">Strobe Lights</a></li>
+                                    <li><a href="Effect Machines.html"style="color:white">Effect Machines</a></li>
+                                    <li><a href="Decorative Units.html"style="color:white">Decorative Units</a></li>
+                                </ul>
+                            </li>
+                            <li>LED Walls
+                                <ul>
+                                    <li><a href="LED Screens.html"style="color:white">LED Screens</a></li>
+                                    <li><a href="LED Curtains.html"style="color:white">LED Curtains</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Software</font>
+                        <ul>
+                            <li><a href="https://serato.com/"style="color:white">Serato</a></li>
+                            <li><a href="https://www.virtualdj.com/"style="color:white">VirtualDJ</a></li>
+                            <li><a href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-2/"style="color:white">Native Instruments</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<p><font size="2px"><font color="white">..............</font>Home<font color="silver">></font>DJ Gear<font color="silver">></font>DJ MIDI Controllers<font color="silver">></font>MIXTRACK PRO DJ NUMARK</font></p>
+<br>   
+              
+<table width="1250" height="300" border="0px">
+ 
+        <td>
+            <p><font color="white">........</font></p>
+        </td>
+        <td width="200"valign="top">
+            <br>
+                <div id="manu">
+                <ul>
+                        <li><font color="#1fb6db"></font><font color="white"> DJ Gear</font></li>
+                </ul> 
+            </div>
+            <p align="center"><a href="CD Players.html"style="color:black">CD Players</a></p> 
+            <p align="center"><a href="DJ mixers.html"style="color:black">DJ Mixers</a></p>
+            <p align="center"><a href="DJ MIDI Controllers.html"style="color:black">DJ MIDI Controllers</a></p>
+            <p align="center"><a href="head2.html"style="color:black">Headphones</a></p>
+        </td>
+    <body>        
+        <td valign="top">
+               
+                <br>
+                <hr>
+                <table width="1000" height="300" border="0px">
+                    <tr>
+                        <th width="450">
+                                <div class="slider">
+                                        <figure>
+                                    <div class="slide">
+                                        <img src="DJ MIDI Controllers/5.1.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="DJ MIDI Controllers/MIXTRACK PRO DJ NUMARK/1.2.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="DJ MIDI Controllers/5.1.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="DJ MIDI Controllers/MIXTRACK PRO DJ NUMARK/1.2.jpg" alt="">
+                                    </div> 
+                                    <div class="slide">
+                                            <img src="DJ MIDI Controllers/5.1.jpg" alt="">
+                                    </div>   
+                                        </figure>
+                                </div>
+                        </th>
+
+                        <th>
+                            <p><font color="white"></font><span style="font-weight:normal;"><font face="DINproMedium" size="5.5px" color="#38ACEC">MIXTRACK PRO DJ NUMARK</font></span></p>
+                            <br>
+                            <p align="left"><font color="white">...</font><span style="font-weight:normal;"><font size="2.5px"><strong>COMPLETE DIGITAL DJ PERFORMANCE</strong></font></span></p>
+                            <br>
+                            <p><span style="font-weight:normal;"><font face="Brandon Grotesque">MIXTRACK PRO is a complete DJ system that works with the music on your Mac or PC. MIXTRACK PRO's classic two-turntables-and-a-mixer setup connects to your computer so you can scratch, mix, loop, and much more.</font></span></p>
+                        </th>
+
+                    </tr>
+                </table>
+                <hr>
+                <table width="1000" height="500" border="0px">
+                        <tr>
+                            <th>
+                                 <p align="left"><font face="Century Gothic" size="6">Descrtiption</font></p>   
+                                 <br>
+                                 <br>
+                                 <p><span style="font-weight:normal;"><font size="2">Complete digital DJ performance
+                                    MIXTRACK PRO is a complete DJ system that works with the music on your Mac or PC. MIXTRACK PRO's classic two-turntables-and-a-mixer setup connects to your computer so you can scratch, mix, loop, and much more. MIXTRACK PRO has all the inputs and outputs you’ll need for your headphones, speakers, and a mic. Plus, MIXTRACK PRO is portable, so you'll always be ready to DJ anywhere.
+                                    Now Works With Free Serato DJ Intro Software!
+                                    A free download of Serato DJ Intro is now available for MIXDECK, MIXDECK EXPRESS, MIXDECK QUAD, MIXTRACK PRO, and N4! Click here to learn more
+                                    Control Comfort
+                                    MIXTRACK PRO has two decks, each with a large, touch-sensitive turntable for accurate scratching, beat-juggling and locating precise points within your tracks. It’s just like working with a record. In addition to the two decks, MIXTRACK PRO has an easy to use audio mixer so veteran DJs and beginners alike will be able to step right up and get the party going. If you’re DJing for the first time, MIXTRACK PRO is a great place to learn because your skills will transfer to any other DJ system.
+                                    Software Sync
+                                    MIXTRACK PRO comes with Serato DJ Intro, powerful software which makes it easy to mix your favorite music. Plus, Virtual DJ LE comes standard in North and South America and Native Instruments'® Traktor LE is included in Europe and Asia. MIXTRACK PRO lets you create professional sounding mixes at home or at live performances at parties, functions and clubs. MIXTRACK PRO is also a MIDI-over-USB controller, so it's compatible with virtually all DJ software.
+                                    Super Sound
+                                    MIXTRACK PRO, while a powerful controller for software, also houses a complete audio interface, which enables you to input and output high-quality sound. Whether you’re connecting MIXTRACK PRO to the computer, to the sound system, for recording, previewing in headphones, or talking over the music with a mic, MIXTRACK PRO gives you all the inputs and outputs you’ll need.
+                                    iTunes is a trademark of Apple Inc. registered in the U.S. and other countries.
+                                    * Virtual DJ LE, Audio/Video/Karaoke mixing software included.</font></span></p>
+                                    <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Features</b></font></span></p>
+                                    <br>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Large, touch-sensitive control wheels for scratching and song cueing 
+                                            Built-in audio connections for both cue preview and performance output 
+                                            Serato DJ Intro software included 
+                                            VirtualDJ LE audio, video and karaoke mixing software included in North & South America 
+                                            TRAKTOR LE software included in Europe & Asia 
+                                            Complete mixer section with crossfader, EQ, loop and effects controls 
+                                            Mouseless navigation controls on the deck 
+                                            Lighted deck-controls indicate software status 
+                                            Integrates with your iTunes library to play and mix songs 
+                                            Compatible with virtually any MIDI DJ software 
+                                            USB powered when connected to a computer   </li>
+                                    </font></span></ul>
+                                    <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Speacifications</b></font></span></p>
+                                    <br>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Dimensions (WxDxH): 18.75" x 11.5" x 2.5" </li>
+                                        <li>Weight: 1.45 lbs </li>
+                                    </font></span></ul>
+                                    <br>
+                             </th>    
+                        </tr>
+                    </table>        
+        </td>
+    </body>
+</table>
+<p align="center" ><a href="file:///C:/Users/Marty/Desktop/MIXTRACK%20PRO%20DJ%20NUMARK.html"><img src="arrowup.png" width="50" height="50"></a></p>
+</body>
+</html>

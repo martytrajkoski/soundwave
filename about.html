@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+            html{text-decoration: }
+                *{box-sizing: border-box;}
+             body {font-family: Verdana, sans-serif;}
+             .mySlides {display: none;}
+             img {vertical-align: middle;}
+         
+             .slideshow-container {
+                 max-width: 1000px;
+                 position: relative;
+                 margin: auto;
+             }
+         
+             .text{
+                 color: aliceblue;
+                 font-size: 15px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 8px;
+                 width: 100%;
+                 text-align: center;
+             }
+         
+             .numbertext {
+                 color: aliceblue;
+                 font-size: 12px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 top: 0;
+             }
+         
+             .dot{
+                 height: 15px;
+                 width: 15px;
+                 margin: 0 2px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                 display: inline-block;
+                 transition: background-color 0.6s ease;
+             }
+         
+             .active{
+                 background-color: #717171;
+             }
+         
+             .fade{
+                 -webkit-animation-name: fade;
+                 -webkit-animation-duration: 1.5s;
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+             }
+         
+             @-webkit-keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @media only screen and (max-width: 300px) {
+                 .text {font-size: 11px}
+             }
+             </style>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        #container ul
+            {
+            list-style:none;
+            }
+        #container ul li{
+            background-color:none;
+            width: 104px;
+            border: 1px solid none;
+            height: 20px;
+            line-height:20px;
+            text-align: center;
+            float: left;
+            color: gray;
+            font-size: 15px;
+            
+        }
+        </style>
+        <style>
+        #beforedropdown ul
+            {
+                list-style:none;
+            }
+        #beforedropdown ul li
+            {
+                background-color:none;
+                width: 178px;
+                border: 0px solid darkgray;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                float: left;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+            }       
+        </style>
+        <style>
+        #dropdownmainmanu ul
+            {
+                list-style: none;
+            }
+        #dropdownmainmanu ul li
+            {
+                background-color: rgb(0, 0, 0);
+                width: 153px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: left;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                position: relative;
+            } 
+        #dropdownmainmanu ul li
+            {
+                background-color: gray; 
+            }  
+        #dropdownmainmanu ul li:hover
+            {
+                background-color: rgb(31, 182, 219)
+    
+            } 
+        #dropdownmainmanu ul ul
+            {
+                display: none;
+            }
+        #dropdownmainmanu ul li:hover > ul
+            {
+                display: block;
+            }
+        #dropdownmainmanu ul ul ul
+            {
+                margin-left: 150px;
+                top: 0px;
+                position: absolute;
+            }
+        </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="about.css" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+    <br> 
+    <div id="container" >
+            <ul>            
+                    <li><img src="logo.png" height="210" width="320"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/homepage.html"style="color:white"text-decoration>Home</font></a></li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/about.html"style="color:white">About</font></a></li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Dealers.html"style="color:white">Dealers</font></a></li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Companies.html"style="color:white">Companies</font></a></li>
+            </ul>
+        </div>
+    <br>
+    <br>
+    <br>
+        <div id="beforedropdown">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div id="dropdownmainmanu">
+            <ul>
+                <li><font face="verdana">Hi-Fi</font>
+                    <ul>
+                        <li><a href="Speakers1.html"style="color:white">Speakers</a></li>
+                        <li><a href="Pre-amplifiers.html"style="color:white">Pre-amplifiers</a></li>
+                        <li><a href="Amps.html"style="color:white">Amplifiers</a></li>
+                        <li><a href="Home-Cinema.html"style="color:white">Home Cinema</a></li>
+                        <li><a href="head.html"style="color:white">Headphones</a></li>
+                    </ul>
+                </li>
+                <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/proekt/index.html" style="color:white">Instruments</a></font></li>
+                <li><font face="verdana">DJ Gear</font>
+                    <ul>
+                        <li><a href="CD Players.html"style="color:white">CD Player</a></li>
+                        <li><a href="DJ mixers.html" style="color:white">DJ Mixers</a></li>
+                        <li><a href="DJ MIDI Controllers.html" style="color:white">DJ MIDI Controllers</a></li>
+                        <li><a href="head2.html"style="color:white">Headphones</a></li>
+                    </ul>
+                </li>
+                <li><font face="verdana">Lighting</font>
+                    <ul>
+                        <li>Club & Disco Lighting
+                            <ul>
+                                <li><a href="Lasers.html"style="color:white">Lasers</a></li>
+                                <li><a href="Moving Heads.html"style="color:white">Moving Heads</a></li>
+                                <li><a href="Scanners.html"style="color:white">Scanners</a></li>
+                                <li><a href="Strobe Lights.html"style="color:white">Strobe Lights</a></li>
+                                <li><a href="Effect Machines.html"style="color:white">Effect Machines</a></li>
+                                <li><a href="Decorative Units.html"style="color:white">Decorative Units</a></li>
+                            </ul>
+                        </li>
+                        <li>LED Walls
+                            <ul>
+                                <li><a href="LED Screens.html"style="color:white">LED Screens</a></li>
+                                <li><a href="LED Curtains.html"style="color:white">LED Curtains</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><font face="verdana">Software</font>
+                    <ul>
+                        <li><a href="https://serato.com/"style="color:white">Serato</a></li>
+                        <li><a href="https://www.virtualdj.com/"style="color:white">VirtualDJ</a></li>
+                        <li><a href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-2/"style="color:white">Native Instruments</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>    
+<p><font color="white">......................................</font><font face="Brandon Grotesque" size="06" color="#38ACEC">About</font></p>
+ <table width="1200" height="300" border="0" align="center">
+ <tr>
+  <td>
+    
+  </td>
+  <td  width="900" background="about.jpg" width="1200" height="300">
+  <p><font size="04">On this site we are adversiting all type of music equipment, music software and lighting. We are using online sources to find informations about latest and greatest products.
+    On this page you can search for a description about your product. Here you can find: music instruments, DJ equipment, headphones, speakers, amplifiers, preamplifires, 
+    microphones, lighting, etc. Products from this page are able to buy in a music store. There is a description for every product on this page so you can make a decision 
+    what would be better for you to buy. Thank you for visiting our web site.</font>
+  </p>
+  </td>
+ </tr>
+</table>
+<img src="logo2.png" align="center" width="1200" height="140">
+</body>
+</html>

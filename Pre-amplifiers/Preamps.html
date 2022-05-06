@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>  
+        <style>
+                *{box-sizing: border-box;}
+             body {font-family: Verdana, sans-serif;}
+             .mySlides {display: none;}
+             img {vertical-align: middle;}
+         
+             .slideshow-container {
+                 max-width: 1000px;
+                 position: relative;
+                 margin: auto;
+             }
+         
+             .text{
+                 color: aliceblue;
+                 font-size: 15px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 8px;
+                 width: 100%;
+                 text-align: center;
+             }
+         
+             .numbertext {
+                 color: aliceblue;
+                 font-size: 12px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 top: 0;
+             }
+         
+             .dot{
+                 height: 15px;
+                 width: 15px;
+                 margin: 0 2px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                 display: inline-block;
+                 transition: background-color 0.6s ease;
+             }
+         
+             .active{
+                 background-color: #717171;
+             }
+         
+             .fade{
+                 -webkit-animation-name: fade;
+                 -webkit-animation-duration: 1.5s;
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+             }
+         
+             @-webkit-keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @media only screen and (max-width: 300px) {
+                 .text {font-size: 11px}
+             }
+             </style>
+        <style>
+                *{
+                    margin:0px;
+                    padding:0px;
+                }
+                #container ul
+                    {
+                    list-style:none;
+                    }
+                #container ul li{
+                    background-color:none;
+                    width: 104px;
+                    border: 1px solid none;
+                    height: 20px;
+                    line-height:20px;
+                    text-align: center;
+                    float: left;
+                    color: gray;
+                    font-size: 15px;
+                    
+                }
+                </style>
+                <style>
+                #beforedropdown ul
+                    {
+                        list-style:none;
+                    }
+                #beforedropdown ul li
+                    {
+                        background-color:none;
+                        width: 178px;
+                        border: 0px solid darkgray;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                    }       
+                </style>
+                <style>
+                #dropdownmainmanu ul
+                    {
+                        list-style: none;
+                    }
+                #dropdownmainmanu ul li
+                    {
+                        background-color: rgb(0, 0, 0);
+                        width: 153px;
+                        border: 0px solid darkgray;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                        position: relative;
+                    } 
+                #dropdownmainmanu ul li
+                    {
+                        background-color: gray; 
+                    }  
+                #dropdownmainmanu ul li:hover
+                    {
+                        background-color: rgb(31, 182, 219)
+            
+                    } 
+                #dropdownmainmanu ul ul
+                    {
+                        display: none;
+                    }
+                #dropdownmainmanu ul li:hover > ul
+                    {
+                        display: block;
+                    }
+                #dropdownmainmanu ul ul ul
+                    {
+                        margin-left: 150px;
+                        top: 0px;
+                        position: absolute;
+                    }
+                </style>
+          <link rel="stylesheet" type="text/css" href="about.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pre-amplifiers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <br> 
+        <div id="container" >
+                <ul>            
+                        <li><img src="logo.png" height="210" width="320"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/homepage.html"style="color:white">Home</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/about.html"style="color:white">About</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Dealers.html"style="color:white">Dealers</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Companies.html"style="color:white">Companies</font></a></li>
+                </ul>
+            </div>
+        <br>
+        <br>
+        <br>
+            <div id="beforedropdown">
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="dropdownmainmanu">
+                <ul>
+                    <li><font face="verdana">HI-FI</font>
+                        <ul>
+                            <li><a href="Speakers/Speakers1/Speakers1.html"style="color:white">Speakers</a></li>
+                            <li>Pre-amplifiers</li>
+                            <li>Amplifiers</li>
+                            <li>Home Cinema Recievers</li>
+                            <li>Headphones</li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Instruments</font></li>
+                    <li><font face="verdana">DJGear</font>
+                        <ul>
+                            <li>CD Player</li>
+                            <li>DJ Mixers</li>
+                            <li>DJ MIDI Controllers</li>
+                            <li>Headphones</li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Lighting</font>
+                        <ul>
+                            <li>Club & Disco Lighting
+                                <ul>
+                                    <li>Lasers</li>
+                                    <li>Moving Heads</li>
+                                    <li>Scanners</li>
+                                    <li>Strobe Lights</li>
+                                    <li>Effect Machines</li>
+                                    <li>Decorative Units</li>
+                                </ul>
+                            </li>
+                            <li>Stage Lighting</li>
+                            <li>LED Walls
+                                <ul>
+                                    <li>LED Screens</li>
+                                    <li>LED Curtains</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Software</font>
+                        <ul>
+                            <li><a href="https://serato.com/"style="color:white">Serato</a></li>
+                            <li><a href="https://www.virtualdj.com/"style="color:white">VirtualDJ</a></li>
+                            <li><a href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-2/"style="color:white">Native Instruments</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+</body>
+</html>

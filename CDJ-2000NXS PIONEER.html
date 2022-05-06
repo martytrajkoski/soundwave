@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+            #button{
+                background-color: rgb(31, 182, 219);
+                width: 150px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: center;
+                color: rgb(31, 182, 219);
+                font-size: 15px;
+                position: relative;
+            }
+        </style>
+        <style>
+            #manu ul
+            {
+                list-style: none;
+            }
+            #manu ul li
+            {
+                background-color:rgb(31, 182, 219);
+                width: 200px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: left;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                position: relative;
+            } 
+        </style> 
+        <style>
+             *{box-sizing: border-box;}
+             body {font-family: Verdana, sans-serif;}
+             .mySlides {display: none;}
+             img {vertical-align: middle;}
+         
+             .slideshow-container {
+                 max-width: 1000px;
+                 position: relative;
+                 margin: auto;
+             }
+         
+             .text{
+                 color: aliceblue;
+                 font-size: 15px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 8px;
+                 width: 100%;
+                 text-align: center;
+             }
+         
+             .numbertext {
+                 color: aliceblue;
+                 font-size: 12px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 top: 0;
+             }
+         
+             .dot{
+                 height: 15px;
+                 width: 15px;
+                 margin: 0 2px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                 display: inline-block;
+                 transition: background-color 0.6s ease;
+             }
+         
+             .active{
+                 background-color: #717171;
+             }
+         
+             .fade{
+                 -webkit-animation-name: fade;
+                 -webkit-animation-duration: 1.5s;
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+             }
+         
+             @-webkit-keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @media only screen and (max-width: 300px) {
+                 .text {font-size: 11px}
+             }
+             </style>
+        <style>
+                *{
+                    margin:0px;
+                    padding:0px;
+                }
+                #container ul
+                    {
+                    list-style:none;
+                    }
+                #container ul li{
+                    background-color:none;
+                    width: 104px;
+                    border: 1px solid none;
+                    height: 20px;
+                    line-height:20px;
+                    text-align: center;
+                    float: left;
+                    color: gray;
+                    font-size: 15px;
+                    
+                }
+                </style>
+                <style>
+                #beforedropdown ul
+                    {
+                        list-style:none;
+                    }
+                #beforedropdown ul li
+                    {
+                        background-color:none;
+                        width: 178px;
+                        border: 0px solid darkgray;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                    }       
+                </style>
+                <style>
+                #dropdownmainmanu ul
+                    {
+                        list-style: none;
+                    }
+                #dropdownmainmanu ul li
+                    {
+                        background-color: rgb(0, 0, 0);
+                        width: 153px;
+                        border: 0px solid darkgray;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                        position: relative;
+                    } 
+                #dropdownmainmanu ul li
+                    {
+                        background-color: gray; 
+                    }  
+                #dropdownmainmanu ul li:hover
+                    {
+                        background-color: rgb(31, 182, 219)
+            
+                    } 
+                #dropdownmainmanu ul ul
+                    {
+                        display: none;
+                    }
+                #dropdownmainmanu ul li:hover > ul
+                    {
+                        display: block;
+                    }
+                #dropdownmainmanu ul ul ul
+                    {
+                        margin-left: 150px;
+                        top: 0px;
+                        position: absolute;
+                    }
+                </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CDJ-2000NXS PIONEER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <br> 
+        <div id="container" >
+                <ul>            
+                        <li><img src="logo.png" height="210" width="320"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/homepage.html"style="color:white">Home</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/about.html"style="color:white">About</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Dealers.html"style="color:white">Dealers</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Companies.html"style="color:white">Companies</font></a></li>
+                </ul>
+            </div>
+        <br>
+        <br>
+        <br>
+            <div id="beforedropdown">
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="dropdownmainmanu">
+                <ul>
+                    <li><font face="verdana">Hi-Fi</font>
+                        <ul>
+                            <li><a href="Speakers1.html"style="color:white">Speakers</a></li>
+                            <li><a href="Pre-amplifiers.html"style="color:white">Pre-amplifiers</a></li>
+                            <li><a href="Amps.html"style="color:white">Amplifiers</a></li>
+                            <li><a href="Home-Cinema.html"style="color:white">Home Cinema</a></li>
+                            <li><a href="head.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/proekt/index.html" style="color:white">Instruments</a></font></li>
+                    <li><font face="verdana">DJ Gear</font>
+                        <ul>
+                            <li><a href="CD Players.html"style="color:white">CD Player</a></li>
+                            <li><a href="DJ mixers.html" style="color:white">DJ Mixers</a></li>
+                            <li><a href="DJ MIDI Controllers.html" style="color:white">DJ MIDI Controllers</a></li>
+                            <li><a href="head2.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Lighting</font>
+                        <ul>
+                            <li>Club & Disco Lighting
+                                <ul>
+                                    <li><a href="Lasers.html"style="color:white">Lasers</a></li>
+                                    <li><a href="Moving Heads.html"style="color:white">Moving Heads</a></li>
+                                    <li><a href="Scanners.html"style="color:white">Scanners</a></li>
+                                    <li><a href="Strobe Lights.html"style="color:white">Strobe Lights</a></li>
+                                    <li><a href="Effect Machines.html"style="color:white">Effect Machines</a></li>
+                                    <li><a href="Decorative Units.html"style="color:white">Decorative Units</a></li>
+                                </ul>
+                            </li>
+                            <li>LED Walls
+                                <ul>
+                                    <li><a href="LED Screens.html"style="color:white">LED Screens</a></li>
+                                    <li><a href="LED Curtains.html"style="color:white">LED Curtains</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Software</font>
+                        <ul>
+                            <li><a href="https://serato.com/"style="color:white">Serato</a></li>
+                            <li><a href="https://www.virtualdj.com/"style="color:white">VirtualDJ</a></li>
+                            <li><a href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-2/"style="color:white">Native Instruments</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<p><font size="2px"><font color="white">..............</font>Home<font color="silver">></font>DJ Gear<font color="silver">></font>CD Players<font color="silver">></font>CDJ-2000NXS PIONEER</font></p>
+<br>   
+              
+<table width="1250" height="300" border="0px">
+ 
+        <td>
+            <p><font color="white">........</font></p>
+        </td>
+        <td width="200"valign="top">
+            <br>
+                <div id="manu">
+                <ul>
+                        <li><font color="#1fb6db"></font><font color="white"> DJ Gear</font></li>
+                </ul> 
+            </div>
+            <p align="center"><a href="CD Players.html"style="color:black">CD Players</a></p> 
+            <p align="center"><a href="DJ mixers.html"style="color:black">DJ Mixers</a></p>
+            <p align="center"><a href="DJ MIDI Controllers.html"style="color:black">DJ MIDI Controllers</a></p>
+            <p align="center"><a href="head2.html"style="color:black">Headphones</a></p>
+        </td>
+    <body>        
+        <td valign="top">
+               
+                <br>
+                <hr>
+                <table width="1000" height="300" border="0px">
+                    <tr>
+                        <th width="450">
+                                <div class="slider">
+                                        <figure>
+                                    <div class="slide">
+                                        <img src="CD Players/4.1.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="CD Players/CDJ-2000NXS PIONEER/1.2.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="CD Players/CDJ-2000NXS PIONEER/1.3.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="CD Players/CDJ-2000NXS PIONEER/1.2.jpg" alt="">
+                                    </div> 
+                                    <div class="slide">
+                                            <img src="CD Players/4.1.jpg" alt="">
+                                    </div>   
+                                        </figure>
+                                </div>
+                        </th>
+
+                        <th>
+                            <p><font color="white"></font><span style="font-weight:normal;"><font face="DINproMedium" size="5.5px" color="#38ACEC">CDJ-2000NXS PIONEER</font></span></p>
+                            <br>
+                            <p align="left"><font color="white">...</font><span style="font-weight:normal;"><font size="2.5px"><strong>CDJ-2000 nexus - Pro-Grade Digital DJ Deck</strong></font></span></p>
+                            <br>
+                            <p><span style="font-weight:normal;"><font face="Brandon Grotesque">Meet the next generation DJ turntable that opens doors to performances beyond your wildest dreams. Use the included rekordbox DJ software or download the new rekordbox app (learn more) to prepare mindblowing sets. The CDJ-2000nexus allows you to evolve beyond beat matching, and explore and master the newest DJ performance possibilities.</font></span></p>
+                        </th>
+
+                    </tr>
+                </table>
+                <hr>
+                <table width="1000" height="500" border="0px">
+                        <tr>
+                            <th>
+                                 <p align="left"><font face="Century Gothic" size="6">Descrtiption</font></p>   
+                                 <br>
+                                 <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Speacifications</b></font></span></p>
+                                    <br>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Processor: Wolfson DAC processor </li>
+                                        <li>Soundcard: 24-bit/48 kHz sound card  </li>
+                                        <li>Frequency Response: 4 Hz ~ 20 kHz </li>
+                                        <li>Signal to Noise Ratio: 115 dB or more (JEITA)  </li>
+                                        <li>Distortion: 0,0018 % (JEITA)  </li>
+                                        <li>Audio Output Level: 2.0 V rms (1kHz, 0 dB)   </li>
+                                        <li>Power Consumption: 37 Watt  </li>
+                                        <li>Power Requirements: 220 - 240 V, 50/60 Hz </li>
+                                        <li>Dimensions (W x H xD): 320 x 106.4 x 405.7  mm </li>
+                                        <li>Net Weight4,7  kg </li>
+                                    </font></span></ul>
+                                    <p><span style="font-weight:normal;"><font size="2">Main Features
+                                            Playsmedia： 
+                                            iPhone/iPad/iPod touch,Android phone/Android Tablet, etc. 
+                                            USB storage devices (flash memory/HDD, etc.) 
+                                            SD memory cards 
+                                            computers (Mac/Windows PC) 
+                                            Audio CD, CD-R/RW 
+                                            DVD±R/RW/R-DL 
+                                            Files: 
+                                            MP3, AAC, WAV,AIFF 
+                                            remark: iOS version of "rekordbox™" only plays MP3 and AAC 
+                                            MP3MPEG-1 32Kbps - 320 Kbps / MPEG-2 16 Kbps - 160 Kbps 
+                                            MIDI Control 
+                                            ProDJ Link 
+                                            rekordbox 
+                                            Anti Vibration 
+                                            Included Accessories
+                                            Rekordbox software 
+                                            Power cord 
+                                            Stereo phono cable 
+                                            Control cable 
+                                            LAN cable 
+                                            Forced eject pin 
+                                            Manual 
+                                            Input/Output
+                                            Disc Slot 
+                                            USB 
+                                            SD Card Slot 
+                                            Analogue Output: 1 stereo RCA 
+                                            Digital Output 
+                                            Display
+                                            Display: 6.1 inch full-colour LCD screen 
+                                            Wave Display 
+                                            Beat Display 
+                                            Jog Display 
+                                            Playing Address 
+                                            Wave Data 
+                                            Performance Control
+                                            Jog Dial size: 206,0 mm 
+                                            Jog Dial type: Touch sensitive 
+                                            Hot Cue (sampler) 
+                                            Hot Loop 
+                                            Quick Start 
+                                            Auto Beat Loop / Emergency 
+                                            Beat / Loop Cutter 
+                                            Reverse 
+                                            Real Time Seamless Loop 
+                                            Loop Adjust: In / Out Adjust 
+                                            Loop Divide 
+                                            Reloop 
+                                            Jog Modes: CDJ / Vinyl mode 
+                                            Pitch Bend 
+                                            Scratch Play / Cue 
+                                            Quick Scratch: After searching track 
+                                            Fader Start / Back Cue start 
+                                            Frame Search: 1 / 150 sec 
+                                            Needle Search/Needle Drop 
+                                            Vinyl Speed Adjust 
+                                            Tempo
+                                            Master Tempo 
+                                            Tempo Control steps: 0.02% at +/-6%, 0.05% at +/- 10% & 16%, 0.5% at WIDE 
+                                            Tempo Control Ranges (CD): +/-6%, +/-10%, +/-16%, +/-100% WIDE 
+                                            Tempo Control Ranges (MP3): +/-6%, +/-10%, +/-16%, +/-100% WIDE 
+                                            BPM Counter 
+                                            Cue Functions
+                                            Auto Cue 
+                                            Manual Cue 
+                                            Real Time Cue 
+                                            Cue point sampler 
+                                            Cue / Loop Memory 
+                                            Front loading Slot-In CD </font></span></p>
+                             </th>    
+                        </tr>
+                    </table>        
+        </td>
+    </body>
+</table>
+<p align="center" ><a href="file:///C:/Users/Marty/Desktop/CDJ-2000NXS%20PIONEER.html"><img src="arrowup.png" width="50" height="50"></a></p>
+</body>
+</html>

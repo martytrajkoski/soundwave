@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+            #button{
+                background-color: rgb(31, 182, 219);
+                width: 150px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: center;
+                color: rgb(31, 182, 219);
+                font-size: 15px;
+                position: relative;
+            }
+        </style>
+        <style>
+            #manu ul
+            {
+                list-style: none;
+            }
+            #manu ul li
+            {
+                background-color:rgb(31, 182, 219);
+                width: 200px;
+                border: 0px solid darkgray;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                float: left;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                position: relative;
+            } 
+        </style> 
+        <style>
+             *{box-sizing: border-box;}
+             body {font-family: Verdana, sans-serif;}
+             .mySlides {display: none;}
+             img {vertical-align: middle;}
+         
+             .slideshow-container {
+                 max-width: 1000px;
+                 position: relative;
+                 margin: auto;
+             }
+         
+             .text{
+                 color: aliceblue;
+                 font-size: 15px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 8px;
+                 width: 100%;
+                 text-align: center;
+             }
+         
+             .numbertext {
+                 color: aliceblue;
+                 font-size: 12px;
+                 padding: 8px 12px;
+                 position: absolute;
+                 top: 0;
+             }
+         
+             .dot{
+                 height: 15px;
+                 width: 15px;
+                 margin: 0 2px;
+                 background-color: #bbb;
+                 border-radius: 50%;
+                 display: inline-block;
+                 transition: background-color 0.6s ease;
+             }
+         
+             .active{
+                 background-color: #717171;
+             }
+         
+             .fade{
+                 -webkit-animation-name: fade;
+                 -webkit-animation-duration: 1.5s;
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+             }
+         
+             @-webkit-keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @keyframes fade{
+                 from {opacity: .4}
+                 to {opacity: 1}
+             }
+         
+             @media only screen and (max-width: 300px) {
+                 .text {font-size: 11px}
+             }
+             </style>
+        <style>
+                *{
+                    margin:0px;
+                    padding:0px;
+                }
+                #container ul
+                    {
+                    list-style:none;
+                    }
+                #container ul li{
+                    background-color:none;
+                    width: 104px;
+                    border: 1px solid none;
+                    height: 20px;
+                    line-height:20px;
+                    text-align: center;
+                    float: left;
+                    color: gray;
+                    font-size: 15px;
+                    
+                }
+                </style>
+                <style>
+                #beforedropdown ul
+                    {
+                        list-style:none;
+                    }
+                #beforedropdown ul li
+                    {
+                        background-color:none;
+                        width: 178px;
+                        border: 0px solid darkgray;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                    }       
+                </style>
+                <style>
+                #dropdownmainmanu ul
+                    {
+                        list-style: none;
+                    }
+                #dropdownmainmanu ul li
+                    {
+                        background-color: rgb(0, 0, 0);
+                        width: 153px;
+                        border: 0px solid darkgray;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        float: left;
+                        color: rgb(255, 255, 255);
+                        font-size: 15px;
+                        position: relative;
+                    } 
+                #dropdownmainmanu ul li
+                    {
+                        background-color: gray; 
+                    }  
+                #dropdownmainmanu ul li:hover
+                    {
+                        background-color: rgb(31, 182, 219)
+            
+                    } 
+                #dropdownmainmanu ul ul
+                    {
+                        display: none;
+                    }
+                #dropdownmainmanu ul li:hover > ul
+                    {
+                        display: block;
+                    }
+                #dropdownmainmanu ul ul ul
+                    {
+                        margin-left: 150px;
+                        top: 0px;
+                        position: absolute;
+                    }
+                </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CDJ-850 PIONEER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <br> 
+        <div id="container" >
+                <ul>            
+                        <li><img src="logo.png" height="210" width="320"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/homepage.html"style="color:white">Home</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/about.html"style="color:white">About</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Dealers.html"style="color:white">Dealers</font></a></li>
+                        <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/Companies.html"style="color:white">Companies</font></a></li>
+                </ul>
+            </div>
+        <br>
+        <br>
+        <br>
+            <div id="beforedropdown">
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="dropdownmainmanu">
+                <ul>
+                    <li><font face="verdana">Hi-Fi</font>
+                        <ul>
+                            <li><a href="Speakers1.html"style="color:white">Speakers</a></li>
+                            <li><a href="Pre-amplifiers.html"style="color:white">Pre-amplifiers</a></li>
+                            <li><a href="Amps.html"style="color:white">Amplifiers</a></li>
+                            <li><a href="Home-Cinema.html"style="color:white">Home Cinema</a></li>
+                            <li><a href="head.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana"><a href="file:///C:/Users/Marty/Desktop/proekt/index.html" style="color:white">Instruments</a></font></li>
+                    <li><font face="verdana">DJ Gear</font>
+                        <ul>
+                            <li><a href="CD Players.html"style="color:white">CD Player</a></li>
+                            <li><a href="DJ mixers.html" style="color:white">DJ Mixers</a></li>
+                            <li><a href="DJ MIDI Controllers.html" style="color:white">DJ MIDI Controllers</a></li>
+                            <li><a href="head2.html"style="color:white">Headphones</a></li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Lighting</font>
+                        <ul>
+                            <li>Club & Disco Lighting
+                                <ul>
+                                    <li><a href="Lasers.html"style="color:white">Lasers</a></li>
+                                    <li><a href="Moving Heads.html"style="color:white">Moving Heads</a></li>
+                                    <li><a href="Scanners.html"style="color:white">Scanners</a></li>
+                                    <li><a href="Strobe Lights.html"style="color:white">Strobe Lights</a></li>
+                                    <li><a href="Effect Machines.html"style="color:white">Effect Machines</a></li>
+                                    <li><a href="Decorative Units.html"style="color:white">Decorative Units</a></li>
+                                </ul>
+                            </li>
+                            <li>LED Walls
+                                <ul>
+                                    <li><a href="LED Screens.html"style="color:white">LED Screens</a></li>
+                                    <li><a href="LED Curtains.html"style="color:white">LED Curtains</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><font face="verdana">Software</font>
+                        <ul>
+                            <li><a href="https://serato.com/"style="color:white">Serato</a></li>
+                            <li><a href="https://www.virtualdj.com/"style="color:white">VirtualDJ</a></li>
+                            <li><a href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-2/"style="color:white">Native Instruments</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<p><font size="2px"><font color="white">..............</font>Home<font color="silver">></font>DJ Gear<font color="silver">></font>CD Players<font color="silver">></font>CDJ-850 PIONEER</font></p>
+<br>   
+              
+<table width="1250" height="300" border="0px">
+ 
+        <td>
+            <p><font color="white">........</font></p>
+        </td>
+        <td width="200"valign="top">
+            <br>
+                <div id="manu">
+                <ul>
+                        <li><font color="#1fb6db"></font><font color="white"> DJ Gear</font></li>
+                </ul> 
+            </div>
+            <p align="center"><a href="CD Players.html"style="color:black">CD Players</a></p> 
+            <p align="center"><a href="DJ mixers.html"style="color:black">DJ Mixers</a></p>
+            <p align="center"><a href="DJ MIDI Controllers.html"style="color:black">DJ MIDI Controllers</a></p>
+            <p align="center"><a href="head2.html"style="color:black">Headphones</a></p>
+        </td>
+    <body>        
+        <td valign="top">
+               
+                <br>
+                <hr>
+                <table width="1000" height="300" border="0px">
+                    <tr>
+                        <th width="450">
+                                <div class="slider">
+                                        <figure>
+                                    <div class="slide">
+                                        <img src="CD Players/1.1.png" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="CD Players/CDJ-850 PIONEER/1.2.jpg" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="CD Players/CDJ-850 PIONEER/1.1.png" alt="">
+                                    </div>
+                                    <div class="slide">
+                                            <img src="CD Players/CDJ-850 PIONEER/1.2.jpg" alt="">
+                                    </div> 
+                                    <div class="slide">
+                                            <img src="CD Players/1.1.png" alt="">
+                                    </div>   
+                                        </figure>
+                                </div>
+                        </th>
+
+                        <th>
+                            <p><font color="white"></font><span style="font-weight:normal;"><font face="DINproMedium" size="5.5px" color="#38ACEC">CDJ-850 PIONEER</font></span></p>
+                            <br>
+                            <p align="left"><font color="white">...</font><span style="font-weight:normal;"><font size="2.5px"><strong></strong></font></span></p>
+                            <br>
+                            <p><span style="font-weight:normal;"><font face="Brandon Grotesque">Replacing the CDJ-800MK2, the CDJ-850 offers some major enhancements over its predecessor. This deck is designed to feel and function like a CDJ-900 or CDJ-2000 and is rekordbox enabled, while maintaining an affordable price.</font></span></p>
+                        </th>
+
+                    </tr>
+                </table>
+                <hr>
+                <table width="1000" height="500" border="0px">
+                        <tr>
+                            <th>
+                                 <p align="left"><font face="Century Gothic" size="6">Descrtiption</font></p>   
+                                 <br>
+                                 <br>
+                                 <p><span style="font-weight:normal;"><font size="2">No matter what source – CD, USB (flash drive or disk) or straight from PC or Mac* – this deck is suitable for your way of working. MP3, AAC, AIFF and WAV (up to professional 24-bit WAV) files are supported.
+                                    It’s also rekordbox compatible, meaning that using the free rekordbox software, you can beforehand prepare and manage your tracks on your PC for an extra smooth DJ set.</font></span></p>
+                                    <br>
+                                    <p><span style="font-weight:normal;"><font size="2">But you can also easily create your set on the fly. With the Tag List feature, you can plan 20 or even more tracks ahead. Unique to the CDJ-850, you can even add, remove and change the order of the tracks in the list. Wave Display allows you to see peaks and drops in your tracks, helping you make fluent mixes between tracks.</font></span></p>
+                                    <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Full-size jog wheel and other pro features</b></font></span></p>
+                                    <br>
+                                    <p><span style="font-weight:normal;"><font size="2">Just like the CDJ-900 and 2000, the CDJ-850 has a full-size 206 mm jog wheel for a professional feel and performance, and a large screen.</font></span></p>
+                                    <p><span style="font-weight:normal;"><font size="2">The USB HID interface allows you to use more complex DJ software without a control disk.
+                                        Additional features include Auto Beat Loop Function, Tempo Variation, CD Resume function and vibration resistance.</font></span></p>
+                                    <p><span style="font-weight:normal;"><font size="2">The CDJ-850 is now also available in black as the CDJ-850-K</font></span></p>
+                                    <p><span style="font-weight:normal;"><font size="2">* Computer playback via MIDI control of 3rd party DJ software (not included) or when in soundcard mode.</font></span></p>
+                                    <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Features</b></font></span></p>
+                                    <br>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Plays: 
+                                            <ul>
+                                                <li>CD (including CD-R / -RW) </li>
+                                                <li>Digital media playback via USB </li>
+                                                <li>WAV,AIFF,MP3, AAC files on CD </li>
+                                            </ul>
+                                        </li>
+                                        <li>MP3: MPEG-1 32Kbps - 320 Kbps / MPEG-4 16 Kbps - 160 Kbps </li>
+                                        <li>MIDI Control: Yes </li>
+                                        <li>rekordbox: Yes </li>
+                                        <li>Anti Vibration: Yes </li>
+                                        <li>Included Accessories: Power cord, Manual, Stereo Phono cable, Control Cable, Forced Eject Pin, rekordbox software </li>
+                                    </font></span></ul>
+                                    <br>
+                                    <p><span style="font-weight:normal;"><font size="2">Input/Output</font></span></p>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Disc Slot: Yes</li>
+                                        <li>USB: Yes </li>
+                                        <li>Analogue Output: Yes  </li>
+                                    </font></span></ul>
+                                    <br>
+                                    <p align="left"><span style="font-weight:normal;"><font size="2"><b>Speacifications</b></font></span></p>
+                                    <br>
+                                    <ul><span style="font-weight:normal;"><font size="2">
+                                        <li>Frequency Response: 4 Hz ~ 20 kHz </li>
+                                        <li>Signal to Noise Ratio: 115 dB or more (JEITA)  </li>
+                                        <li>Distortion: 0,003 % (JEITA) </li>
+                                        <li>Audio Output Level: 2.0 V rms (1kHz, 0 dB) </li>
+                                        <li>Power Consumption: 21 Watt </li>
+                                        <li>Power Requirements: 220 - 240 V, 50/60 Hz </li>
+                                        <li>Dimensions (W x H xD): 305 x 105.5 x 364.4 mm </li>
+                                        <li>Net Weight: 3,3 kg </li>
+                                    </font></span></ul>
+                             </th>    
+                        </tr>
+                    </table>        
+        </td>
+    </body>
+</table>
+<p align="center" ><a href="file:///C:/Users/Marty/Desktop/CDJ-850%20PIONEER.html"><img src="arrowup.png" width="50" height="50"></a></p>
+</body>
+</html>
